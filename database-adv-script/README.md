@@ -31,3 +31,21 @@ We create indexes on frequently queried columns and measure performance before a
    - **Before indexing** → sequential scans
    - **After indexing** → index scans with lower cost
 
+# Database Advanced Scripts
+
+This folder contains advanced SQL scripts and documentation for optimizing the **Airbnb Clone database**.
+
+## Contents
+
+1. **aggregations_and_window_functions.sql**  
+   - Demonstrates use of SQL aggregations and window functions.  
+   - Includes `ROW_NUMBER()` to rank properties based on total bookings.  
+
+2. **database_index.sql**  
+   - Contains `CREATE INDEX` commands to optimize queries on high-usage columns in the User, Booking, and Property tables.  
+
+3. **index_performance.md**  
+   - Documents query performance before and after indexing.  
+   - Uses `EXPLAIN` and `ANALYZE` to show the impact of indexes.  
+
+
